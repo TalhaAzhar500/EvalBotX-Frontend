@@ -5,7 +5,7 @@ import BarChartIcon from "@mui/icons-material/BarChart";
 
 const MotionTypography = motion(Typography);
 
-const themes = ["488286", "ffffff", "000000"];
+const themes = ["488286"];
 
 export default function Dashboard() {
   return (

@@ -21,6 +21,7 @@ const SignIn = () => {
     setShowPassword((show) => !show);
   };
   const handleSignIn = () => {
+    navigate("/Dashboard");
     console.log("sign in clicked");
   };
 

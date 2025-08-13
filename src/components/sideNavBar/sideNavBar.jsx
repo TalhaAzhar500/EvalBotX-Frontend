@@ -35,6 +35,7 @@ const SideNavBar = ({ window, children, pageName }) => {
   };
 
   const handleLogout = () => {
+    console.log("working");
     window.location.href = "/signIn";
   };
 

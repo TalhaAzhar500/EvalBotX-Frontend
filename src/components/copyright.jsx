@@ -4,8 +4,7 @@ const Copyright = () => {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
-      EvalBotx
-      {new Date().getFullYear()}
+      EvalBotx {` ${new Date().getFullYear()}`}
       {"."}
     </Typography>
   );
